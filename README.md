@@ -93,6 +93,8 @@ secrets所有字段和仓库地址对应的settings -> Secrets下的字段名对
 
 **配置完毕后每次提交代码都会自动部署代码，并且可以在actions下查看是否部署成功**
 
+![](http://lck6de1p.com/static/img/actions.png)
+
 
 
 
