@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <vHeader />
-    <component21 />
-    <component1 />
-    <component2 />
-    <component3 />
-    <component4 />
-    <component5 />
-    <component6 />
-    <component7 />
-    <component8 />
-    <component9 />
-    <component10 />
-    <component11 />
-    <component12 />
-    <component13 />
-    <component14 />
-    <component15 />
-    <component16 />
-    <component17 />
-    <component18 />
-    <component19 />
-    <component20 />
-  </div>
+	<div id="app">
+		<vHeader />
+		<component21 />
+		<component1 />
+		<component2 />
+		<component3 />
+		<component4 />
+		<component5 />
+		<component6 />
+		<component7 />
+		<component8 />
+		<component9 />
+		<component10 />
+		<component11 />
+		<component12 />
+		<component13 />
+		<component14 />
+		<component15 />
+		<component16 />
+		<component17 />
+		<component18 />
+		<component19 />
+		<component20 />
+		<div class="link">
+			<a href="https://beian.miit.gov.cn/" target="_blank"
+				>浙ICP备20014267号</a
+			>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -47,70 +52,75 @@ import component17 from '@/components/macOS Dock.vue'
 import component18 from '@/components/点击生成爱心.vue'
 import component19 from '@/components/伪类控制input样式.vue'
 import component20 from '@/components/文本展开收起功能.vue'
-import component21 from  '@/components/loading滚动.vue'
+import component21 from '@/components/loading滚动.vue'
 export default {
-  components: {
-    vHeader,
-    component1,
-    component2,
-    component3,
-    component4,
-    component5,
-    component6,
-    component7,
-    component8,
-    component9,
-    component10,
-    component11,
-    component12,
-    component13,
-    component14,
-    component15,
-    component16,
-    component17,
-    component18,
-    component19,
-    component20,
-    component21,
-  },
+	components: {
+		vHeader,
+		component1,
+		component2,
+		component3,
+		component4,
+		component5,
+		component6,
+		component7,
+		component8,
+		component9,
+		component10,
+		component11,
+		component12,
+		component13,
+		component14,
+		component15,
+		component16,
+		component17,
+		component18,
+		component19,
+		component20,
+		component21,
+	},
 }
 </script>
 <style lang='scss'>
-body, html, #app {
-  width: 100%;
-  height: 100%;
+body,
+html,
+#app {
+	width: 100%;
+	height: 100%;
 }
 #app {
-  overflow-y: auto;
-  overflow-x: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
-::-webkit-scrollbar{
-  width: 5px;
-  height: 5px;
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
 }
-::-webkit-scrollbar-thumb{
-  border-radius: 1em;
-  background-color: rgba(50,50,50,.3);
+::-webkit-scrollbar-thumb {
+	border-radius: 1em;
+	background-color: rgba(50, 50, 50, 0.3);
 }
-::-webkit-scrollbar-track{
-  border-radius: 1em;
-  background-color: rgba(50,50,50,.1);
+::-webkit-scrollbar-track {
+	border-radius: 1em;
+	background-color: rgba(50, 50, 50, 0.1);
 }
 .css-demo {
-  position: relative;
-  border-top: 1px solid #ccc;
-  &::after {
-    content: attr(data-title);
-    position: absolute;
-    left: 50%;
-    top: 0;
-    padding: 0 12px;
-    color: #fff;
-    line-height: 30px;
-    background-color: #1e9fff;
-    border-radius: 0 0 5px 5px;
-    transform: translateX(-50%);
-  }
+	position: relative;
+	border-top: 1px solid #ccc;
+	&::after {
+		content: attr(data-title);
+		position: absolute;
+		left: 50%;
+		top: 0;
+		padding: 0 12px;
+		color: #fff;
+		line-height: 30px;
+		background-color: #1e9fff;
+		border-radius: 0 0 5px 5px;
+		transform: translateX(-50%);
+	}
+}
+.link {
+	text-align: center;
 }
 </style>
 
